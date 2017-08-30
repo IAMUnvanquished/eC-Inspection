@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<html>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <head>
+        <link rel="stylesheet" type="text/css" href="css/inspectionpage.css">
+        <title>Inspection Page</title>
+    </head>
+    <body>
+            <form>
+                    <label for="fullname">Full Name</label> <!--How to save input into database-->
+                    <input type="text" id="fullname" name="fullname" placeholder="Your full name..">
+            </form>
+
+            <div class="bordercontainer">
+                RFID
+                <div id="RFIDinput"></div>   
+            </div>
+
+            <div class="bordercontainer">
+                Location
+                <div id="latlon"></div>
+            </div>
+            <div id="locationMap"></div>
+
+            <div class="bordercontainer">
+                Weather
+                <div id="weatherDisplay"></div>
+            </div>  
+
+            <a href="#">
+                <div id="submitButton">
+                    Submit
+                </div>
+            </a>
+
+            <a href="index.html">
+                <div class="cancelButton">
+                    Cancel
+                </div>
+            </a>
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="js/function.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+        <script type="text/javascript" src="js/inspectionpage.js"></script>
+    </body>
+</html>

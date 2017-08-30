@@ -1,0 +1,77 @@
+body {
+    background-color: #fff6f4;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+label {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.bordercontainer {
+    margin: 0 30% 5% 30%;
+    text-align: center;
+    border: 5px solid #d7f2ff;
+    border-radius: 20px;  
+    font-weight: bold;
+    font-family: "Times New Roman", Georgia, Serif;
+    font-size: 24px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    background-color: red;
+}
+
+/*On mobile inspectionpage is too small*/
+
+#submitButton {
+    border: 5px solid orangered;
+    border-radius: 20px;
+    padding: 15px 30px;
+    margin: 3% 20%;
+    text-align: center; 
+    font-size: 24px;
+    font-family: "Times New Roman", Georgia, Serif;
+}
+
+#cancelButton {
+    border: 5px solid yellow;
+    border-radius: 20px;
+    padding: 15px 30px;
+    margin: 3% 20%;
+    text-align: center; 
+    font-size: 24px;
+    font-family: "Times New Roman", Georgia, Serif;
+}
+
+/* Make weather number font size smaller 
+Add blue dot to show your own location
+Add the coordinates to display with the map 
+Let Tyler Rahul and John try the app*/
+#weatherDisplay {
+    text-align: center;
+    color:#3333ff;
+    font-size: 25px;
+}

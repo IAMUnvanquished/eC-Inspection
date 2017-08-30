@@ -1,0 +1,28 @@
+
+a#cancelButton{    
+    border: 5px solid orangered;
+    border-radius: 20px;
+    padding: 15px 30px;
+    display: inline-block;
+    position: absolute;
+    bottom: 0;
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    background-color: red;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 10px 25px;
+}
+
+table, td, th {
+    border: 1px solid black;
+}

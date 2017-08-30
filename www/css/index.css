@@ -1,0 +1,115 @@
+/*
+ * Licensed to the Apache Software Foundation (ASF) under one
+ * or more contributor license agreements.  See the NOTICE file
+ * distributed with this work for additional information
+ * regarding copyright ownership.  The ASF licenses this file
+ * to you under the Apache License, Version 2.0 (the
+ * "License"); you may not use this file except in compliance
+ * with the License.  You may obtain a copy of the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing,
+ * software distributed under the License is distributed on an
+ * "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+ * KIND, either express or implied.  See the License for the
+ * specific language governing permissions and limitations
+ * under the License.
+ */
+
+html {
+    height: 100%;
+}
+
+body { 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-color: #3a7fff;
+    background-image:linear-gradient(top, #3a7fff 0%, #d4fffc 51%);
+    background-image:-webkit-linear-gradient(top, #3a7fff 0%, #d4fffc 51%);
+    background-image:-ms-linear-gradient(top, #3a7fff 0%, #d4fffc 51%);
+    background-image:-webkit-gradient(
+        linear,
+        left top,
+        left bottom,
+        color-stop(0, #3a7fff),
+        color-stop(0.51, #d4fffc)
+    );
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    font-family:'HelveticaNeue-Light', 'HelveticaNeue', Helvetica, Arial, sans-serif;
+    font-size:12px;
+    height:100%;
+    margin:0px;
+    padding:0px;
+    width:100%;
+}
+
+/*Title Screen*/
+
+/*.container {
+    height: 256px;
+    width: 256px;
+    display: inline-block;
+}
+
+div #sunImage {
+    background: url(../img/sun.png) no-repeat left;
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+}
+
+div #umbrellaImage {  
+    background: url(../img/umbrella.png) no-repeat right;
+    width: 100%;
+    height: auto;
+    position: absolute;
+}*/
+
+div .appTitle {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+
+.inspectionButton, .listInspectionButton {
+    padding: 25px 30px;
+    margin: 10% 20%;
+    border: 5px solid #23aeff;
+    border-radius: 50px;
+    background-color: #564aff;
+    text-transform: uppercase;
+    font-size:24px;
+    font-weight:bold;
+    text-align:center;
+    color: #ffa557;
+}
+
+/*problems with this
+a:hover {
+    background-color: #ff5a23; 
+}
+*/
+
+
+@keyframes fade {
+    from { opacity: 1.0; }
+    50% { opacity: 0.4; }
+    to { opacity: 1.0; }
+}
+ 
+@-webkit-keyframes fade {
+    from { opacity: 1.0; }
+    50% { opacity: 0.4; }
+    to { opacity: 1.0; }
+}
